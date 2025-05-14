@@ -10,7 +10,7 @@ int main(){
         cout << "No se puede contiunar con la compra" <<endl ;
         return 0;
     }
-    else if (16 < edad)
+    else if (16 <= edad)
     {
         cout << "> Por favor, seleccione que tipo de usuario es <" <<endl;
         cout << "1. Estudiante"<<endl;
