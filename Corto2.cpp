@@ -31,7 +31,7 @@ int main()
             switch (producto)
             {
             case 1:
-                cout << " Usted a seleccionado la Laptop basica ($900)" << endl;
+                cout << " Usted ha seleccionado la Laptop basica ($900)" << endl;
                 if (saldo < (900 * 0.80))
                 {
                     resultado = ((900 * 0.80) - saldo);
@@ -44,7 +44,7 @@ int main()
                 }
                 break;
             case 2:
-                cout << " Usted a seleccionado la Tablet estudiantil ($600)" << endl;
+                cout << " Usted ha seleccionado la Tablet estudiantil ($600)" << endl;
                 if (saldo < (600 * 0.80))
                 {
                     resultado = ((600 * 0.80) - saldo);
@@ -57,7 +57,7 @@ int main()
                 }
                 break;
             case 3:
-                cout << " Usted a seleccionado la Chromebook ($700)" << endl;
+                cout << " Usted ha seleccionado la Chromebook ($700)" << endl;
                 if (saldo < (700 * 0.80))
                 {
                     resultado = ((700 * 0.80) - saldo);
@@ -85,7 +85,7 @@ int main()
             switch (producto)
             {
             case 1:
-                cout << " Usted a seleccionado la Laptop avanzada ($1500)" << endl;
+                cout << " Usted ha seleccionado la Laptop avanzada ($1500)" << endl;
                 if (saldo < (1500 * 0.10))
                 {
                     resultado = ((1500 * 0.10) - saldo);
@@ -98,7 +98,7 @@ int main()
                 }
                 break;
             case 2:
-                cout << " Usted a seleccionado la Tablet Pro ($1200)" << endl;
+                cout << " Usted ha seleccionado la Tablet Pro ($1200)" << endl;
                 if (saldo < (1200 * 0.90))
                 {
                     resultado = ((1200 * 0.90) - saldo);
@@ -111,7 +111,7 @@ int main()
                 }
                 break;
             case 3:
-                cout << " Usted a seleccionado la Estacion de trabajo($2000)" << endl;
+                cout << " Usted ha seleccionado la Estacion de trabajo($2000)" << endl;
                 if (saldo < (2000 * 0.90))
                 {
                     resultado = ((2000 * 0.90) - saldo);
